@@ -19,6 +19,9 @@ http.createServer(function(request, response) {
     case '/':
       filename = __dirname + '/src/index.html';
     break;
+    case '/instagrampuller':
+      filename = __dirname + '/src/instagramPuller.html';
+    break;
     default:
       filename = __dirname + uri;
     break;
